@@ -5,8 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quintin and Gabriel Ton</title>
     <link rel="stylesheet" href="styles.css">
+    <script type="module" src="../buttonScript.js"></script>
+    <script type="module" src="../main.js" defer></script>
 </head>
 <body>
     <div id = "Place_HolderDiv"></div> 
+    <script type="module">
+        import { main } from './main.js';
+        document.addEventListener('DOMContentLoaded', () => {
+            main(); 
+        });
+    </script>
 </body>
 </html>
