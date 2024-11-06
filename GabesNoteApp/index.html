@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabes Note Taking app</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>  <!-- i full on looked this up and it works to get the pdf function to work and it does -->
+</head>
+<body>
+    <h1>Gabes Note Taking App</h1>
+    <div class="notepad-container">
+        <div class="notepad-header">
+            <input type="text" id="noteInput" placeholder="Enter your note here">
+            <button id="addNoteBtn">Add Note</button>
+        </div>
+        <ul id="noteList"></ul>
+        <button id="downloadBtn">Download Notes as PDF</button>
+    </div>
+    
+    <script src="noteapp.js"></script>
+</body>
+</html>
